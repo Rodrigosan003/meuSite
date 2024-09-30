@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --color-background: #1e1f29;
+    --color-box-button: #45b8ed;
+    --color-font: #f3f3f3;
+    --color-font-hover: #818181;
+    --color-span: var(--color-box-button);
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-background);
+}
+
+.interface {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: var(--color-span);
+}

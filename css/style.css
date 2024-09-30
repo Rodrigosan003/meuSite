@@ -1,0 +1,170 @@
+/* Barra de menu */
+header {
+    height: 15%;
+}
+header .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 4%;
+}
+
+header .interface .logo img {
+    width: 8.12rem;
+}
+
+header .interface .menu ul {
+    display: flex;
+    gap: 5rem;
+    list-style-type: none;
+}
+
+header a {
+    display: inline-block;
+    color: var(--color-font-hover);
+    transition: .2s;
+}
+
+header a:hover {
+    color: var(--color-font);
+    transform: scale(1.05);
+}
+
+header .contato button {
+    background-color: var(--color-box-button);
+    border: none;
+    padding: 0.625rem 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 1.875rem;
+    cursor: pointer;
+    transition: .2s;
+}
+
+header .contato button:hover {
+    box-shadow: 0px 0px 8px #45b8ed;
+    transform: scale(1.05);
+}
+
+header .contato button a {
+    color: var(--color-font);
+}
+
+/* Início */
+
+main {
+    height: 70%;
+}
+
+main .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 4%;
+}
+
+main .box-txt {
+    color: var(--color-font);
+}
+
+main h1 {
+    color: var(--color-font);
+    font-size: 3rem;
+}
+
+main h2 {
+    color: var(--color-font);
+    margin-bottom: 0.6rem;
+}
+
+
+
+main .box-img img {
+    height: 25rem;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 1.875rem;
+    }
+}
+
+/* Fim da sessão início */
+
+/* Sessão sobre */
+
+section.sobre {
+    height: 70%;
+}
+
+section.sobre .interface {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 1.5rem 4%;
+}
+
+section.sobre .img-sobre img {
+    height: 25rem;
+}
+
+section.sobre .txt-sobre h2, p {
+    color: var(--color-font);
+}
+
+section.sobre .txt-sobre h2 {
+    font-size: 3.5rem;
+    line-height: 2.5rem;
+}
+
+section.sobre .txt-sobre h2 span {
+    font-size: 2rem;
+    display: inline-block;
+}
+
+section.sobre .txt-sobre p {
+    margin-top: 1.875rem;
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+}
+
+/* Fim da sessão sobre */
+
+footer {
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+footer .interface {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 4%;
+}
+
+footer .social {
+    display: flex;
+    gap: 5rem;
+}
+
+footer .social button {
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--color-box-button);
+    color: var(--color-font);
+    font-size: 1.375rem;
+    cursor: pointer;
+    transition: .2s;
+}
+
+footer .social button:hover {
+    box-shadow: 0px 0px 8px #45b8ed;
+    transform: scale(1.05);
+}
