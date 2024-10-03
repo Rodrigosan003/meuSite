@@ -12,6 +12,7 @@
     --color-font-hover: #818181;
     --color-span: var(--color-box-button);
     --color-box-shadow: #f3f3f3;
+    --color-box-form: #444444;
 }
 
 body {

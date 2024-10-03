@@ -4,4 +4,4 @@
 - Sobre: pronto
 - Especialidades: pronto
 - Projetos: falta
-- Contato: falta
+- Contato: pronto
