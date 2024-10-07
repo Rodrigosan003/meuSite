@@ -188,6 +188,75 @@ section.especialidades .especialidade-box h3 {
 
 /* Fim da sessão especialidades */
 
+/* Sessão projetos */
+
+section.projetos {
+    height: 70%;
+}
+
+section.projetos .interface {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 4%;
+}
+
+section.projetos .interface h2 {
+    color: var(--color-font);
+    font-size: 2rem;
+}
+
+.projetos-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.projetos-box .img {
+    background-image: url(../images/exemplo.jpeg);
+    height: 22.5rem;
+    width: 28.75rem;
+    border-radius: 2rem;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 5s;
+    cursor: pointer;
+    position: relative;
+}
+
+.projetos-box .img:hover {
+    transform: scale(1.05);
+    background-position: 100% 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-overlay);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-font);
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+/* Fim da sessão projetos */
+
+/* Sessão contato */
 section.contact {
     height: 70%;
 }
@@ -258,6 +327,8 @@ form .btn-enviar input:hover {
     box-shadow: 0px 0px 8px var(--color-box-button);
     transform: scale(1.05);
 }
+
+/* Fim da sessão contato */
 
 footer {
     height: 15%;

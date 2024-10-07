@@ -3,5 +3,5 @@
 - Início: quase
 - Sobre: pronto
 - Especialidades: pronto
-- Projetos: falta
+- Projetos: trabalhando
 - Contato: pronto

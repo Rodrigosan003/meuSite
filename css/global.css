@@ -13,6 +13,7 @@
     --color-span: var(--color-box-button);
     --color-box-shadow: #f3f3f3;
     --color-box-form: #444444;
+    --color-overlay: #1e1f2980;
 }
 
 body {
